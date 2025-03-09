@@ -1,0 +1,169 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eef3f7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #34495e;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.hero, .competences, section {
+    padding: 50px 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.skill-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card, .experience-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.skill-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.cv-motivation-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.cv-section iframe, .motivation-section iframe{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start; /* Ajouté pour garantir que les sections soient alignées en haut */
+}
+
+.footer-section {
+    width: 22%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Assure que les éléments sont alignés à gauche dans chaque section */
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #3498db; /* Couleur bleue lors du survol */
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* Pour s'assurer que le texte et les liens sont alignés correctement sous les titres */
+.footer-section p,
+.footer-section a {
+    margin-left: 0;
+}
+
+.text-square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;  /* Définissez la taille du carré ici */
+    height: 300px; /* Définissez la taille du carré ici */
+    background-color: #ffffff;
+    border: 2px solid #2c3e50;
+    border-radius: 15px;  /* Optionnel pour arrondir les coins */
+    margin: 0 auto;  /* Centrer le carré */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-square h2, .text-square p {
+    margin: 0;
+    padding: 5px 0;
+}
